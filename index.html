@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamWilliams365</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px;
+            background-color: #111;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .main-section {
+            width: 100%;
+            max-width: 1200px;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .main-section h2 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .main-section p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .grid-background {
+            background-image: linear-gradient(90deg, #222 1px, transparent 1px), linear-gradient(#222 1px, transparent 1px);
+            background-size: 50px 50px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .projects {
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        .project {
+            display: flex;
+            gap: 20px;
+            background-color: #111;
+            padding: 20px;
+            border-radius: 8px;
+            align-items: center;
+        }
+
+        .project img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .project-content {
+            text-align: left;
+        }
+
+        .project-content h3 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .project-content p {
+            margin: 5px 0 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-background"></div>
+
+    <header>
+        <h1>SamWilliams365</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Project Alpha</a>
+        </nav>
+    </header>
+
+    <div class="main-section">
+        <h2>SamWilliams365</h2>
+        <p>Keep Learning | Stay Inspired | Share Ideas</p>
+    </div>
+
+    <section class="projects">
+        <div class="project">
+            <img src="placeholder.png" alt="Project Alpha">
+            <div class="project-content">
+                <h3>Project Alpha</h3>
+                <p>AI is transforming our world at an unprecedented pace, offering immense opportunities. To stay ahead, we must learn quickly and work together.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
